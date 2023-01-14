@@ -1,0 +1,7 @@
+/* Font Styles */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=Poppins:wght@500&family=Racing+Sans+One&family=Work+Sans:wght@700&display=swap');
+
+/* Common Styles */
+body{
+    font-family: 'Work Sans', sans-serif;
+}
