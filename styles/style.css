@@ -1,7 +1,96 @@
-/* Font Styles */
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=Poppins:wght@500&family=Racing+Sans+One&family=Work+Sans:wght@700&display=swap');
+/*----------------------- Font Styles----------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=Poppins:wght@500&family=Racing+Sans+One&family=Work+Sans:wght@400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=Poppins:wght@500&family=Racing+Sans+One&family=Work+Sans&display=swap'); */
 
-/* Common Styles */
-body{
+/*-------------------- Common Styles-------------------- */
+body {
     font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+.header {
+    padding: 30px 150px;
+    background: rgba(255, 144, 14, 0.1);
+    /* width: 1920px;
+height: 1322px; */
+}
+
+/*--------------------------Nav style----------------------  */
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #131313;
+    /* margin-top: 50px; */
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+    font-size: 18px;
+    color: #424242;
+    /* margin-top: 62px; */
+    /* align-items: center; */
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+/*------------------ Banner Styles------------------- */
+.banner {
+     display: grid;
+    grid-template-columns: repeat(1,1fr); 
+    justify-items: center;
+
+}
+
+.banner-title {
+    color: #131313;
+    font-weight: 600;
+    font-size: 64px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    width: 75%;
+}
+
+.banner-text {
+    color: #727272;
+    font-size: 16px;
+    margin-bottom: 30px;
+
+}
+
+.btn-explore {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 25px;
+    height: 64px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 50px;
+    width: 180px;
+
+
+}
+.banner-title-to-btn{
+  display: grid;
+ text-align: center;
+    justify-items: center;
+    width: 80%;
+    /* padding-left: 180px;
+    padding-right: 180px; */
+}
+
+.img-banner {
+    width: 100%
 }
