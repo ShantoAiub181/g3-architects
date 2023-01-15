@@ -217,16 +217,21 @@ nav ul {
         box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
         border-radius: 8px;
         
+        
     }
     .features-sub-title{
         color: #131313;
         font-weight: 600;
     font-size: 20px;
+    margin-left: 15px;
+    margin-bottom: 10px;
     }
     .features-sub-title-description{
         color: #727272;
         font-weight: 400;
     font-size: 16px;
+    margin-left: 15px;
+    margin-bottom: 10px;
     }
     .feature-img img{
     margin-right: 50px;
