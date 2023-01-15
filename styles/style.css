@@ -1,11 +1,11 @@
 /*----------------------- Font Styles----------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=Poppins:wght@500&family=Racing+Sans+One&family=Work+Sans:wght@400;700&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=Poppins:wght@500&family=Racing+Sans+One&family=Work+Sans&display=swap'); */
+
 
 /*-------------------- Common Styles-------------------- */
 body {
     font-family: 'Work Sans', sans-serif;
-    /* margin: 0 240px 0 240px; */
+    
     margin: 0;
 
 }
@@ -13,8 +13,7 @@ body {
 .header {
     padding: 30px 150px;
     background: rgba(255, 144, 14, 0.1);
-    /* width: 1920px;
-height: 1322px; */
+    
 }
 
 /*--------------------------Nav style----------------------  */
@@ -36,8 +35,7 @@ nav li {
     margin-left: 50px;
     font-size: 18px;
     color: #424242;
-    /* margin-top: 62px; */
-    /* align-items: center; */
+   
 
 }
 
@@ -148,15 +146,13 @@ nav ul {
 
 .title-bold {
     color: #131313;
-    /* font-weight: 700;
-    font-size: 45px; */
+    
     font-weight: 700;
 }
 
 .title-orange {
     color: #FF900E;
-    /* font-weight: 700;
-    font-size: 45px; */
+    
     font-weight: 700;
 }
 
@@ -171,9 +167,7 @@ nav ul {
 .features-main{
     margin-left: 150px;
     display: flex;
-    /* margin-top: 330px; */
-    /* display: flex; */
-    /* width: 1250px; */
+    
     height: 1059px;
     
     gap: 20px;
